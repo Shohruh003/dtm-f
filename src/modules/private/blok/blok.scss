@@ -1,0 +1,105 @@
+.blok{
+    padding-top: 50px;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__heading{
+        max-width: 558px;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 50px;
+        align-self: center;
+        color: #000000;    
+    }
+
+    &__role{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        &-circle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            border: 1px solid #AEAEAE;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 52px;
+            color: #000000;    
+        }
+
+        &-line{
+            display: inline-block;
+            width: 375px;
+            height: 1px;
+            background-color: #AEAEAE;;
+        }
+    }
+
+    &__form{
+        max-width: 445px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 75px;
+
+        &-title{
+            display:block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 30px;
+            color: #000000;    
+        }
+    }
+
+    &__select{
+        display: block;
+        width: 540px;
+        padding: 14px 24px;
+        border: 1px solid #AEAEAE;
+        border-radius: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #AEAEAE;   
+        outline: none;    
+    }
+
+    &__link{
+        display:inline-block;
+        width: 40%;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+        padding: 17px 30px;
+        border: 1px solid #18A0FB;
+        border-radius: 20px;
+
+        &:hover{
+            background-color: #18A0FB;
+            color: #fff;
+        }
+    }
+}
+
+.goback{
+    display: inline-block;
+    margin-bottom: 65px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px; 
+    color: #000000;    
+}

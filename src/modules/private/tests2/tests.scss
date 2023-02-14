@@ -1,0 +1,59 @@
+.tests{
+    padding-top: 50px;
+
+    &__title{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
+        margin-bottom: 17px;
+        color: #000000;   
+    }
+
+    &__answers{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+
+    }
+
+    &__btn{
+        display: inline-block;
+        width: 150px;
+        background-color: transparent;
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        border: 1px solid #AEAEAE;
+        border-radius: 20px;
+        color: #AEAEAE;    
+        cursor: pointer;
+    }
+
+    &__line{
+        display: inline-block;
+        width: 100%;
+        height: 3px;
+        background-color: #AEAEAE;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__submit{
+        display:inline-block;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+        background-color: transparent;
+        padding: 15px 200px;
+        border: 1px solid #18A0FB;
+        border-radius: 20px;
+
+        &:hover{
+            background-color: #18A0FB;
+            color: #fff;
+        }
+    }
+}

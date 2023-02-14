@@ -1,0 +1,19 @@
+.result{
+    &__link{
+        display:inline-block;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+        background-color: transparent;
+        padding: 15px 20px;
+        border: 1px solid #18A0FB;
+        border-radius: 20px;
+
+        &:hover{
+            background-color: #18A0FB;
+            color: #fff;
+        }
+    }
+}
